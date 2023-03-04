@@ -150,3 +150,42 @@ p {
     padding-left: 500px;
 }
 
+/* CTA Container */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 800px;
+    padding: 25px 100px;
+    justify-content: space-between;
+}
+
+.cta {
+    color: #F9FAF8;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.cta-button {
+    margin: 16px;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 16px;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
